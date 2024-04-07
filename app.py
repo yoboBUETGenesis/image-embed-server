@@ -33,6 +33,3 @@ def submit_form():
         "image_embeddings": embeddings
     })
     
-    
-if __name__ == '__main__':
-    app.run(debug=True, port=8080)
